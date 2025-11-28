@@ -61,9 +61,11 @@
   to {
     scale: 1;
   }
+  
   50% {
     scale: 1.25;
   }
+  
   from {
     scale: 1;
   }
@@ -73,9 +75,11 @@
   to {
     opacity: 0;
   }
+  
   50% {
     opacity: 1;
   }
+  
   from {
     opacity: 0;
   }
