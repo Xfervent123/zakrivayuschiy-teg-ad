@@ -1,1 +1,1 @@
-https://xfervent123.github.io/zakrivayuschiy-teg-ad/
+https://github.com/Xfervent123/zakrivayuschiy-teg-ad
