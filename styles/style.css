@@ -111,6 +111,7 @@
   padding: 0;
   block-size: 34px;
   align-self: center;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
@@ -134,6 +135,8 @@
 .button__text {
   font-family: var(--font-accent);
   font-size: 14px;
+  color: var(--btn-text-color);
+  mix-blend-mode: difference;
 }
 
 .save-button {
@@ -191,6 +194,10 @@
   border: 2px solid #000;
 }
 
+body:has(.save-window[open]) {
+  overflow: hidden;
+}
+
 .window-container {
   display: flex;
   gap: 20px;
@@ -225,6 +232,7 @@
 .button {
   transition: box-shadow 0.3s ease;
   position: relative;
+  cursor: pointer;
 }
 
 .button:focus {
@@ -247,11 +255,6 @@
 
 .button:hover::before {
   transform: scaleX(1);
-}
-
-.button__text {
-  color: var(--btn-text-color);
-  mix-blend-mode: difference;
 }
 
 .floppy-icon {
